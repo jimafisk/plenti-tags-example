@@ -10,7 +10,7 @@
   {#if content.type == 'posts'}
     {#each content.fields.tags as tag}
       {#if tag == name}
-        <li><a href="{content.path}">{content.filename}</a></li>
+        <li><a href="/{content.path}">{content.filename}</a></li>
       {/if}
     {/each}
   {/if}
